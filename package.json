@@ -1,0 +1,41 @@
+{
+  "name": "asist-malek",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test:sheets": "tsx src/scripts/testSheets.ts"
+  },
+  
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.24",
+    "dotenv": "^16.6.1",
+    "google-auth-library": "^11.0.2",
+    "google-spreadsheet": "^5.3.0",
+    "googleapis": "^144.0.0",
+    "jimp": "^1.6.1",
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodallegaJhonsy/AsistMalek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodallegaJhonsy/AsistMalek/issues"
+  },
+  "homepage": "https://github.com/RodallegaJhonsy/AsistMalek#readme"
+}
